@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593874755216",
+    "project_id": "graduation-project-edc75",
+    "storage_bucket": "graduation-project-edc75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593874755216:android:6441624a23e975400f0215",
+        "android_client_info": {
+          "package_name": "com.example.cic19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593874755216-3psh1tae5m919rn5tun4n672v6pm9ips.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTQv4uKRzviXPooH3PjuAtnUxp8rHm7IA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593874755216-3psh1tae5m919rn5tun4n672v6pm9ips.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

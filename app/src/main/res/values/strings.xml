@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" translatable="false">BRIGHT HORIZON</string>
+    <string name="tilte" translatable="false">Parenting Courses</string>
+    <string name="Instractor" translatable="false">Instractor</string>
+    <string name="num_register" translatable="false">Number Of Registers</string>
+    <string name="Price" translatable="false">Price</string>
+    <string name="Places_Available" translatable="false">Places Available</string>
+    <string name="URL" translatable="false">URL</string>
+    <string name="religious">"Fatwa Center at Al-Azhar Sharif"</string>
+    <string name="vlogs">"Good beginnings"</string>
+    <string name="vlogs_1">"Foster carer Vic-on welcoming new parents in foster care"</string>
+    <string name="vlogs_2">"Foster carer Phil reflects on his experiences of child foster care"</string>
+    <string name="vlogs_3">"Supporting good enough parenting"</string>
+    <string name="vlogs_4">"New Foster Placement-First 24 Hours"</string>
+    <string name="vlogs_5">"Fostering with Biological Children"</string>
+    <string name="vlogs_6">"officially foster parents our world flipped upside down in hours"</string>
+    <string name="vlogs_7">":What To Expect When You're Expecting: Fostering with Biological Children"</string>
+    <string name="vlogs_8">":ReMoved"</string>
+    <string name="vlogs_9">"Foster Facts LIVE : Fostering with PRIDE"</string>
+    <string name="location">In this section, you can aid homeless children by sending their location to assist them after you have found them.</string>
+    <string name="text1">1- A Copy Of The National ID Card. </string>
+    <string name="text2">2- Criminal Records Certificate. </string>
+    <string name="text3">3- A Copy Of The Contract For Their Apartment,Which They Either Rent Or Own.</string>
+    <string name="text4">4- A Copy Of The Graduation Certificate For The Wife And Husband. </string>
+    <string name="text5">5- A Copy Of The Gas And Electricity Bills Two Witnesses As Their Guarantee. </string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foster_opition"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/foster"
+        android:layout_width="407dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/blue_background"
+        android:gravity="center"
+        android:text="Foster opition"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/decoument"
+        android:layout_width="363dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/blue_background"
+        android:gravity="center"
+        android:text="Decoument"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foster"></TextView>
+
+    <TextView
+        android:id="@+id/foster_payment"
+        android:layout_width="362dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/blue_background"
+        android:gravity="center"
+        android:text="Foster payment opition"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/decoument"></TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

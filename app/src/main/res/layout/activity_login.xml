@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="603dp">
+
+
+        <TextView
+            android:id="@+id/tvletslogin"
+            style="@style/h4"
+            android:layout_width="227dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="84dp"
+            android:gravity="center"
+            android:text="Let's Login"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="61dp"></TextView>
+
+        <TextView
+            android:id="@+id/tvdonthaveaccount"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="Don't have an account?Register "
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
+            app:layout_constraintTop_toBottomOf="@id/tvletslogin"></TextView>
+
+
+        <EditText
+
+            android:id="@+id/edemaillogin"
+            android:layout_width="350dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="56dp"
+            android:gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
+            app:layout_constraintTop_toBottomOf="@id/tvdonthaveaccount"></EditText>
+
+        <EditText
+            android:id="@+id/passwordlogin"
+            android:layout_width="359dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="numberPassword"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
+            app:layout_constraintTop_toBottomOf="@id/edemaillogin"></EditText>
+
+        <TextView
+            android:id="@+id/tvforgetpassword"
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Forgot Password"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
+            app:layout_constraintTop_toBottomOf="@id/passwordlogin"></TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonlogin"
+            style="@style/blueButtonStyle"
+            android:layout_width="306dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="56dp"
+            android:text="Login"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvforgetpassword"></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineloginleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="382dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineloginright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="387dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
